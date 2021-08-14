@@ -1,0 +1,396 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA
+vAddertree
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1628952195
+!i10b 1
+!s100 X=PT@EJ@XI1DEKA;iMO]=1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<MKY^XK]NiC7^@b]i;A;S3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/2021summer/Two_neuron_MLP
+w1628396074
+Z5 8D:/2021summer/Two_neuron_MLP/addertree.sv
+Z6 FD:/2021summer/Two_neuron_MLP/addertree.sv
+!i122 380
+Z7 L0 1 56
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1628952195.000000
+Z10 !s107 D:/2021summer/Two_neuron_MLP/addertree.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/addertree.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@addertree
+vAdderTree
+R0
+!s110 1628393466
+!i10b 1
+!s100 `Y;eZ?6C7>CN[FdJIV>e51
+R2
+I@^K8J]K@FJ?`@QXkGPgDi3
+R3
+S1
+R4
+w1628393437
+R5
+R6
+!i122 14
+R7
+R8
+r1
+!s85 0
+31
+!s108 1628393466.000000
+R10
+R11
+!i113 1
+R12
+R13
+n@adder@tree
+vMAC_unit
+R0
+Z14 !s110 1628952199
+!i10b 1
+!s100 h_2:;DceQMQ^0iF=3:M_k0
+R2
+Ih@5f4[LbaY3JcS]Q>PD>T3
+R3
+S1
+R4
+w1628652984
+8D:/2021summer/Two_neuron_MLP/MAC_unit.sv
+FD:/2021summer/Two_neuron_MLP/MAC_unit.sv
+!i122 408
+L0 1 33
+R8
+r1
+!s85 0
+31
+Z15 !s108 1628952199.000000
+!s107 D:/2021summer/Two_neuron_MLP/MAC_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/MAC_unit.sv|
+!i113 1
+R12
+R13
+n@m@a@c_unit
+vMultiplier
+R0
+Z16 !s110 1628952198
+!i10b 1
+!s100 h^jRg?felk>]_V;?ehWzJ3
+R2
+I;g^mF8C<SVS[Ol]eH89YK3
+R3
+S1
+R4
+w1628936221
+8D:/2021summer/Two_neuron_MLP/Multiplier.sv
+FD:/2021summer/Two_neuron_MLP/Multiplier.sv
+!i122 404
+L0 1 12
+R8
+r1
+!s85 0
+31
+Z17 !s108 1628952198.000000
+!s107 D:/2021summer/Two_neuron_MLP/Multiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/Multiplier.sv|
+!i113 1
+R12
+R13
+n@multiplier
+vNeuron1
+R0
+!s110 1628936225
+!i10b 1
+!s100 WBjNJBiD<fA>O7[N[[chQ1
+R2
+ImmIjjL300A[:e0LA6Q9?j1
+R3
+S1
+R4
+w1628510733
+Z18 8D:/2021summer/Two_neuron_MLP/Neuron1.sv
+Z19 FD:/2021summer/Two_neuron_MLP/Neuron1.sv
+!i122 265
+Z20 L0 2 62
+R8
+r1
+!s85 0
+31
+!s108 1628936225.000000
+Z21 !s107 D:/2021summer/Two_neuron_MLP/Neuron1.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/Neuron1.sv|
+!i113 1
+R12
+R13
+n@neuron1
+vsat_rounding_Q44
+R0
+R14
+!i10b 1
+!s100 [XW2W4bjEU<@@[_@_n]=G0
+R2
+I3F@mAZ_k?3N2feNc@@?`z1
+R3
+S1
+R4
+w1628510672
+8D:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv
+FD:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv
+!i122 406
+L0 2 23
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv|
+!i113 1
+R12
+R13
+nsat_rounding_@q44
+vSigmoid_unit
+R0
+R1
+!i10b 1
+!s100 n39g1`NncJAA`Z3a[L<Zz1
+R2
+Ij<L_;E1fEz4[XN<Y;ZibU1
+R3
+S1
+R4
+w1628653083
+8D:/2021summer/Two_neuron_MLP/sigmoid.sv
+FD:/2021summer/Two_neuron_MLP/sigmoid.sv
+!i122 382
+L0 6 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/2021summer/Two_neuron_MLP/sigmoid.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/sigmoid.sv|
+!i113 1
+R12
+R13
+n@sigmoid_unit
+vStage1
+R0
+R14
+!i10b 1
+!s100 X9]zcj8WTm>P::^;<H2n61
+R2
+IUUIdgZI5[S3Xh5K<Z7Bih0
+R3
+S1
+R4
+w1628951741
+R18
+R19
+!i122 407
+R20
+R8
+r1
+!s85 0
+31
+R15
+R21
+R22
+!i113 1
+R12
+R13
+n@stage1
+vStage2
+R0
+R14
+!i10b 1
+!s100 WBPiHLKW0^[XzaffnG7@Y0
+R2
+IB@I8J1_1eiWK5mJG62J<P1
+R3
+S1
+R4
+w1628952176
+8D:/2021summer/Two_neuron_MLP/Neuron2.sv
+FD:/2021summer/Two_neuron_MLP/Neuron2.sv
+!i122 410
+L0 1 53
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/2021summer/Two_neuron_MLP/Neuron2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/Neuron2.sv|
+!i113 1
+R12
+R13
+n@stage2
+vtb1
+R0
+R1
+!i10b 1
+!s100 =EP<9Ag8FRCnY`oM8k>I42
+R2
+IHPX]gIPIce=T;1D<l@[1=2
+R3
+S1
+R4
+w1628397516
+8D:/2021summer/Two_neuron_MLP/tb1.sv
+FD:/2021summer/Two_neuron_MLP/tb1.sv
+!i122 381
+L0 1 35
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/2021summer/Two_neuron_MLP/tb1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/tb1.sv|
+!i113 1
+R12
+R13
+vtb_2neuron
+R0
+R14
+!i10b 1
+!s100 _nL<<H2eXPk;:DZUh>k<R1
+R2
+IQOR:@]H4kPE[Mkz]?NR890
+R3
+S1
+R4
+w1628950796
+8D:/2021summer/Two_neuron_MLP/tb_2neuron.sv
+FD:/2021summer/Two_neuron_MLP/tb_2neuron.sv
+!i122 411
+L0 2 56
+R8
+r1
+!s85 0
+31
+R15
+!s107 SV_RAND_CHECK.sv|D:/2021summer/Two_neuron_MLP/tb_2neuron.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/tb_2neuron.sv|
+!i113 1
+R12
+R13
+vtb_sigmoid
+R0
+R16
+!i10b 1
+!s100 <??2f[]1M`OOi6eo6K1_60
+R2
+IM[Df?fDA]K6Ra?OkR<mK30
+R3
+S1
+R4
+w1628430859
+8D:/2021summer/Two_neuron_MLP/tb_sigmoid.sv
+FD:/2021summer/Two_neuron_MLP/tb_sigmoid.sv
+!i122 403
+L0 1 36
+R8
+r1
+!s85 0
+31
+R17
+!s107 D:/2021summer/Two_neuron_MLP/tb_sigmoid.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/tb_sigmoid.sv|
+!i113 1
+R12
+R13
+vtb_sv
+R0
+R14
+!i10b 1
+!s100 di<iK]6m47[MVG]=kWaFc1
+R2
+ISEQUfCzgQ19WKEe25Ahjn1
+R3
+S1
+R4
+w1628651892
+8D:/2021summer/Two_neuron_MLP/tb_mac.sv
+FD:/2021summer/Two_neuron_MLP/tb_mac.sv
+!i122 409
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/2021summer/Two_neuron_MLP/tb_mac.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/tb_mac.sv|
+!i113 1
+R12
+R13
+vtest_rounding
+R0
+R14
+!i10b 1
+!s100 3fIJ0GXVILKYe`Qj:N7X]2
+R2
+IZCd879n2CdKRg39aSd5oo3
+R3
+S1
+R4
+w1628509365
+8D:/2021summer/Two_neuron_MLP/test.sv
+FD:/2021summer/Two_neuron_MLP/test.sv
+!i122 405
+L0 2 37
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/2021summer/Two_neuron_MLP/test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/test.sv|
+!i113 1
+R12
+R13
+vTwo_neuron
+R0
+!s110 1628952200
+!i10b 1
+!s100 ec;=k15TX21^RzNZiXVlB2
+R2
+ILn9JUmm^YcP5c1]HMVPH20
+R3
+S1
+R4
+w1628952184
+8D:/2021summer/Two_neuron_MLP/Two_neuron.sv
+FD:/2021summer/Two_neuron_MLP/Two_neuron.sv
+!i122 412
+L0 1 45
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/2021summer/Two_neuron_MLP/Two_neuron.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/2021summer/Two_neuron_MLP/Two_neuron.sv|
+!i113 1
+R12
+R13
+n@two_neuron

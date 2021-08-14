@@ -1,0 +1,93 @@
+D:/2021summer/Two_neuron_MLP/Neuron1.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/Neuron1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Stage1
+
+Top level modules:
+	Stage1
+
+} {} {}} D:/2021summer/Two_neuron_MLP/test.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/test.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_rounding
+
+Top level modules:
+	test_rounding
+
+} {} {}} D:/2021summer/Two_neuron_MLP/addertree.sv {2 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/addertree.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Addertree
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(26): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(26): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(27): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(30): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(30): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: D:/2021summer/Two_neuron_MLP/addertree.sv(31): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	--none--
+
+} {} {}} D:/2021summer/Two_neuron_MLP/tb_sigmoid.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/tb_sigmoid.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sigmoid
+
+Top level modules:
+	tb_sigmoid
+
+} {} {}} D:/2021summer/Two_neuron_MLP/sigmoid.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/sigmoid.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sigmoid_unit
+
+Top level modules:
+	Sigmoid_unit
+
+} {} {}} D:/2021summer/Two_neuron_MLP/MAC_unit.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/MAC_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC_unit
+
+Top level modules:
+	MAC_unit
+
+} {} {}} D:/2021summer/Two_neuron_MLP/SV_RAND_CHECK.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/SV_RAND_CHECK.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} D:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/sat_rounding_Q44.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sat_rounding_Q44
+
+Top level modules:
+	sat_rounding_Q44
+
+} {} {}} D:/2021summer/Two_neuron_MLP/tb_2neuron.sv {2 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/tb_2neuron.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_2neuron
+** Warning: D:/2021summer/Two_neuron_MLP/tb_2neuron.sv(48): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: D:/2021summer/Two_neuron_MLP/tb_2neuron.sv(48): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	tb_2neuron
+
+} {} {}} D:/2021summer/Two_neuron_MLP/tb_mac.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/tb_mac.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sv
+
+Top level modules:
+	tb_sv
+
+} {} {}} D:/2021summer/Two_neuron_MLP/tb1.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/tb1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb1
+
+Top level modules:
+	tb1
+
+} {} {}} D:/2021summer/Two_neuron_MLP/Multiplier.sv {1 {vlog -work work -sv -stats=none D:/2021summer/Two_neuron_MLP/Multiplier.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Multiplier
+
+Top level modules:
+	Multiplier
+
+} {} {}}
